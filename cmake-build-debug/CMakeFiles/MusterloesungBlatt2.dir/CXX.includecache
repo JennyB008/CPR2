@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Matrix.cpp
+Matrix.h
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Matrix.h
+iostream
+-
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Matrix.h
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor.cpp
+Vektor.h
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor.h
+math.h
+-
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor.h
+Matrix.h
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Matrix.h
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor2D.cpp
+iostream
+-
+Vektor2D.h
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor2D.h
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor2D.h
+Vektor.h
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor.h
+
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/main.cpp
+Vektor2D.h
+C:/Users/Patrick/Desktop/MusterloesungBlatt2/Vektor2D.h
+iostream
+-
+
