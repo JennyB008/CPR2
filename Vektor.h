@@ -4,19 +4,19 @@
 #include "Matrix.h"
 
 class Vektor :
-        public Matrix {
+	public Matrix {
 public:
-    Vektor();
+	Vektor();
 
-    virtual ~Vektor();
+	virtual ~Vektor();
 
-    float betrag(void);
+	float betrag(void);
 
-    int skalarprodukt(Vektor v);
+	int skalarprodukt(Vektor v);
 
-    double winkel(Vektor v);
+	double winkel(Vektor v);
 
-    void addiere(Vektor v);
+	void addiere(Vektor v);
 };
 
 #endif
