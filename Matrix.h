@@ -3,17 +3,17 @@
 
 class Matrix {
 protected:
-    float m_Element[2];
-    int m_Zeilen;
-    int m_Spalten;
+	float m_Element[2];
+	int m_Zeilen;
+	int m_Spalten;
 public:
-    Matrix(void);
+	Matrix(void);
 
-    virtual ~Matrix();
+	virtual ~Matrix();
 
-    virtual void ausgabe();
+	virtual void ausgabe();
 
-    static int getCounter();
+	static int getCounter();
 };
 
 #endif
