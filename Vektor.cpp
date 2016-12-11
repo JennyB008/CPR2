@@ -43,10 +43,11 @@ double Vektor::winkel(Vektor v)
         double vektor2Betrag = v.betrag();
 
         double zwischenErgebnis = 0.0;
-        zwischenErgebnis = (vektor1Betrag * vektor2Betrag) / (vektor1Betrag * vektor2Betrag);
+        zwischenErgebnis = (skalarprodukt) / (vektor1Betrag * vektor2Betrag);
 
         double winkel = acos(zwischenErgebnis);
-
+        winkel=winkel*180/3.14159265;
+        
         return winkel;
     } else
         return nan("NAN");
